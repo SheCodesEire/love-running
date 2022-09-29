@@ -75,9 +75,31 @@ h2 {
     height: 600px;
     width: 100%;
     overflow: hidden; /*overflow hidden makes the top of the image hide behind the header, i fixed this already by adding padding to the header though. */
+    position: relative; /*this allows the overlay image to position itself absolutely to it */
 }
 
+#cover-text, #cover-text h2 { color: #fff; }
 
+#cover-text {
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(241, 109, 107, .7);
+
+    bottom: 30px;
+    right: 150px;   /*these rules are referring to the whole div's positioning relative to the background image */
+
+    position: absolute;
+
+}
 #hero-image {
     height: 600px;
     width: 100%;
