@@ -48,6 +48,7 @@ h1, h2 {
   
 }
 
-a {text-decoration: none; } /* removes the underline */
+#nav-menu a {text-decoration: none;
+             color: inherit; } /* removes the underline */
 
-a:hover {text-decoration: underline;}
+#nav-menu a:hover {border-bottom: 1px solid #3a3a3a;} /* changes the colour of our hover underline */
