@@ -32,6 +32,7 @@ h2 {
 #logo {
     font-size: 280%;
     float: left;
+    margin-left: 20px;
 }
 
 /* Navigation links */
@@ -117,3 +118,43 @@ h2 {
     from { transform: scale(1);}
     to {transform: scale(1.1);}
 }
+
+/* club ethos */
+
+#club-ethos {
+    height: 600px;
+    
+}
+
+#club-ethos h1 {text-align: center;
+padding: top 10px;
+padding-bottom: 10px;}
+
+#ethos-flex-sections { display: flex;
+}
+
+#left-about {
+    width: 33.3%;
+order: initial;
+padding-top: 30px;
+
+}
+
+ #right-about {width: 33.3%;
+order: 3;
+padding-top: 30px;
+background-color: green;}
+
+ #center-about {width: 33.3%;
+    order: 2;
+    padding-top: 30px;
+background-color: red;}
+
+.left-about-heading { 
+    width: 60%;
+    line-height: 20px;
+    margin:auto;
+    padding-bottom: 30px;
+    
+}
+
