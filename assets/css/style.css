@@ -150,11 +150,23 @@ background-color: green;}
     padding-top: 30px;
 background-color: red;}
 
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin-top: 5px;
+}
+
 .left-about-heading { 
     width: 60%;
     line-height: 20px;
     margin:auto;
     padding-bottom: 30px;
-    
+}
+
+.right-about-heading { 
+    width: 60%;
+    line-height: 20px;
+    margin:auto;
+    padding-bottom: 30px;
 }
 
