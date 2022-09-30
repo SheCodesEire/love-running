@@ -256,3 +256,32 @@ hr {
 #photos > img {
     width: 100%;
 }
+
+/* Media Queries */
+/* For larger to medium screens size from 1200px wide and down */
+
+@media screen and (max-width:1200px) {
+    #club-ethos {
+        width: auto;
+        height: 1200px;
+        /* this centers our content */
+        margin: 0 auto;
+    }
+
+    #ethos-flex-sections {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    #left-about {
+        width: 100%;
+    }
+    #right-about {
+        width: 100%;
+    }
+
+    #center-about {
+        width: 100%;
+    }
+
+}
