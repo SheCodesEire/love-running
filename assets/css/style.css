@@ -213,8 +213,12 @@ hr {
     color: #fafafa;
     background-color: rgba(0,0,0,.6);
     width: 20%;
-    height: 300px;
+    height: 13rem;
     margin: auto;
     text-align:center;
     border: 2px solid white;
+}
+
+#times h2 {
+    color: #fafafa;
 }
