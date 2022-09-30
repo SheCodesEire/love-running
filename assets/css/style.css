@@ -191,3 +191,27 @@ hr {
     height: 100%;
     border-radius: 50%;
 }
+
+/* timetable section */
+
+#times {
+    display: flex;
+    flex-direction: row;
+    background-image: url('../images/dublin-city.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+#times-flexitem {
+    width: 20%;
+    margin: auto;
+}
+
+#times-flexitem-content {
+    width:60%;
+    margin:auto;
+    
+}
