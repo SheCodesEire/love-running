@@ -246,3 +246,13 @@ hr {
 #footer-flex-item a:hover {
     color:#ccc;
 }
+
+#photos {
+    /*this makes images clear the header and footer */
+    clear:both; 
+    column-count: 4;
+}
+
+#photos > img {
+    width: 100%;
+}
