@@ -266,6 +266,7 @@ hr {
         height: 1200px;
         /* this centers our content */
         margin: 0 auto;
+        
     }
 
     #ethos-flex-sections {
@@ -283,5 +284,45 @@ hr {
     #center-about {
         width: 100%;
     }
+
+    /* gets rid of the hr rule */
+    hr {
+        display: none;
+    }
+
+}
+
+/* For medium screen sizes from 950px wide and down */
+
+@media screen and (max-width: 950px)
+{
+    #nav-menu {
+    clear: left;
+float: left;
+margin-left: 20px;
+margin-bottom: 20px;
+line-height: 25px;}
+
+#nav-menu li {
+    padding-top: 0;
+}
+
+#cover-text {
+    left:0;
+}
+    
+.left-about-heading {
+  width: 85%;
+
+}
+
+.right-about-heading {
+    width: 85%;
+}
+
+.center-about {
+    width: 90%;
+
+}
 
 }
